@@ -1,0 +1,319 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans serif;
+    background-color: #FFF6EA;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: Roboto;
+    color: black;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFE3A9;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#about-us img{
+    position: relative;
+    height: 350px;
+    right: 65px;
+    top: 55px;
+}
+
+#scholarship img{
+    position: relative;
+    height: 350px;
+    left: 70px;
+    top: 80px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.collumn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.button-1{
+    background: #242F9B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.button-1:hover{
+    background: black;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.mid{
+    text-align: center;
+    width: 100%;
+}
+
+.prog-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prog-img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.prog-img img{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.prog-img #zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.prog-img #zoom-in:hover img{
+    transform: scale(1.5);
+}
+
+figure{
+    overflow: hidden;
+}
+
+.prog-img p{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.courses-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses-img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.courses-img img{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.courses-img #zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.courses-img #zoom-in:hover img{
+    transform: scale(1.5);
+}
+
+figure{
+    overflow: hidden;
+}
+
+.courses-img p{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 991.98px){
+    .wrapper{
+        width: 90%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .prog-img{
+        width: 50%;
+    }
+
+    .courses-img{
+        width: 50%;
+    }
+}
+
+footer {
+    background-color: #FFE3A9;
+    margin-top: 160px;
+}
+
+#footer_icon_list {
+    gap: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer_icon_list li {
+    list-style: none;
+}
+
+#facebook_img {
+    width: 40px;
+}
+
+#twitter_img {
+    width: 40px;
+}
+
+#instagram_img {
+    padding-top: 3.5px;
+    width: 36px;
+}
+
+#whatsapp_img {
+    padding-top: 3.5px;
+    width: 34px;
+    color: black;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_icon_list {
+        gap: 20px;
+        padding-top: 15px;
+    }
+    #facebook_img {
+        width: 30px;
+    }
+    #twitter_img {
+        width: 30px;
+    }
+    #instagram_img {
+        padding-top: 2px;
+        width: 27px;
+    }
+    #whatsapp_img {
+        padding-top: 2.5px;
+        width: 25px;
+    }
+    footer p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+}

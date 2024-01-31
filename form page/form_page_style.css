@@ -1,0 +1,93 @@
+body{
+    background-color: #FFF6EA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-page{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.login-page{
+    width: 360px;
+    height: 270px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+a.button-1{
+    background: #242F9B;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 130px 10px 130px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.button-1:hover{
+    background: black;
+    text-decoration: none;
+}
+
+.foot p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.connect{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.connect a{
+    color: #242F9B;
+}
